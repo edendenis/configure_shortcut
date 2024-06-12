@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channel name="xfce4-keyboard-shortcuts" version="1.0">
+    <property name="custom" type="empty">
+        <property name="<Alt>F1" type="string" value="xfce4-popup-applicationsmenu"/>
+        <property name="<Alt>F2" type="string" value="xfrun4"/>
+        <property name="<Alt>F2/startup-notify" type="bool" value="true"/>
+        <property name="<Alt>F3" type="string" value="xfce4-appfinder"/>
+        <property name="<Alt>F3/startup-notify" type="bool" value="true"/>
+        <property name="<Alt>Print" type="string" value="xfce4-screenshooter -w"/>
+        <property name="override" type="bool" value="true"/>
+        <property name="<Primary><Alt>Delete" type="string" value="xfce4-session-logout"/>
+        <property name="<Primary><Alt>Escape" type="string" value="xkill"/>
+        <property name="<Primary><Alt>f" type="string" value="exo-open --launch FileManager"/>
+        <property name="<Primary><Alt>l" type="string" value="xflock4"/>
+        <property name="<Primary><Alt>t" type="string" value="exo-open --launch TerminalEmulator"/>
+        <property name="<Primary>Escape" type="string" value="xfce4-popup-whiskermenu"/>
+        <property name="<Primary><Shift>Escape" type="string" value="xfce4-taskmanager"/>
+        <property name="Print" type="string" value="xfce4-screenshooter -f"/>
+        <property name="<Shift>Print" type="string" value="xfce4-screenshooter -r"/>
+        <property name="<Super>e" type="string" value="exo-open --launch FileManager"/>
+        <property name="<Super>f" type="string" value="exo-open --launch FileManager"/>
+        <property name="<Super>F1" type="string" value="xfce4-find-cursor"/>
+        <property name="<Super>l" type="string" value="xflock4"/>
+        <property name="<Super>m" type="string" value="exo-open --launch MailReader"/>
+        <property name="<Super>p" type="string" value="xfce4-display-settings --minimal"/>
+        <property name="<Super>r" type="string" value="xfrun4"/>
+        <property name="<Super>r/startup-notify" type="bool" value="true"/>
+        <property name="<Super>t" type="string" value="exo-open --launch TerminalEmulator"/>
+        <property name="<Super>w" type="string" value="exo-open --launch WebBrowser"/>
+        <property name="XF86Calculator" type="string" value="mate-calc"/>
+        <property name="XF86Display" type="string" value="xfce4-display-settings --minimal"/>
+        <property name="XF86Explorer" type="string" value="exo-open --launch FileManager"/>
+        <property name="XF86HomePage" type="string" value="exo-open --launch WebBrowser"/>
+        <property name="XF86Mail" type="string" value="exo-open --launch MailReader"/>
+        <property name="XF86Music" type="string" value="rhythmbox"/>
+        <property name="XF86WWW" type="string" value="exo-open --launch WebBrowser"/>
+    </property>
+</channel>
